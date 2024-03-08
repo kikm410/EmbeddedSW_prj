@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">numbaseball</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="rules">You are one last pitcher of your team.\n
+        By choosing 4 digits with fpga, you can either be hero or traitor.\n\n
+        Every hitter will come with their own(random) 4 distinct digits.\n
+        You should also choose 4 distinct digits by pressing switches to throw the ball.\n\n
+        Referee will call Ball / Strike / Hit / Out / Homerun by comparing two 4-length numbers.\n
+        When comparing digits, there are 00 choices.\n
+        Direct Match, Indirect Match, None of Match.\n
+        Direct Match means that two digits are equal and their position is same as well.\n
+        Indirect Match means that two digits are equal but they differ in position.\n
+        None of Match literally means that none your digits are equal to any of hitter\'s digits.\n\n
+        
+        Consequences according to status of Match are as following.\n
+        None of Match will lead to HOMERUN.\n
+        Any Direct Match ===> OUT.\n
+        1 Indirect Match ===> Single Hit.\n
+        2 Indirect Match ===> Ball.\n
+        3 Indirect Match ===> Strike.\n
+        4 Indirect Match ===> Strike.\n\n
+        
+        Lose more than 4 points ===> GAME OVER!\n 
+        </string>
+
+</resources>
